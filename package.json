@@ -1,7 +1,7 @@
 {
   "name": "GDelivery",
   "version": "0.0.1",
-  "author": "Ionic Framework",
+  "author": "Gabriel Duarte",
   "homepage": "http://ionicframework.com/",
   "private": true,
   "scripts": {
@@ -37,5 +37,5 @@
     "@ionic/app-scripts": "3.0.0",
     "typescript": "2.3.4"
   },
-  "description": "An Ionic project"
+  "description": "GDelivery - GDelivery"
 }

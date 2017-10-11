@@ -17,24 +17,21 @@
   "TUTORIAL_SKIP_BUTTON": "Pular",
   "TUTORIAL_CONTINUE_BUTTON": "Continuar",
 
-  "TUTORIAL_SLIDE1_TITLE": "Bem-vindo ao Ionic Super Starter",
-  "TUTORIAL_SLIDE1_DESCRIPTION": "O <b>Ionic Super Starter</b> é um starter para Ionic completo, com diversos componentes e páginas prontas para ser utilizado como guia de melhores práticas.",
+  "TUTORIAL_SLIDE1_TITLE": "Bem-vindo ao GDelivery",
+  "TUTORIAL_SLIDE1_DESCRIPTION": "O <b>GDelivery</b> é um projeto hibrido, com diversos cardapios online para você que gosta de saborear a qualidade de nossas refeições.",
 
-  "TUTORIAL_SLIDE2_TITLE": "Como utilizar o Super Starter",
-  "TUTORIAL_SLIDE2_DESCRIPTION": "Combine os tipos de páginas que você quer e remova aquelas que não precisa. No starter existem muitos casos de uso comuns de layouts e páginas como login, cadastro, abas e de tutorial.",
+  "TUTORIAL_SLIDE2_TITLE": "Como utilizar o GDelivery",
+  "TUTORIAL_SLIDE2_DESCRIPTION": "Faça seu cadastro, compre e receba a refeição em sua casa.",
 
-  "TUTORIAL_SLIDE3_TITLE": "Iniciando o projeto",
-  "TUTORIAL_SLIDE3_DESCRIPTION": "Precisa de ajuda? Dê uma olhada no README do Super Starter para um tutorial completo",
+  "TUTORIAL_SLIDE3_TITLE": "Pronto para Usar?",
 
-  "TUTORIAL_SLIDE4_TITLE": "Pronto para Usar?",
-
-  "WELCOME_INTRO": "O ponto de partida para seu próximo app feito no Ionic",
+  "WELCOME_INTRO": "GDelivery!",
 
   "SETTINGS_TITLE": "Configurações",
   "SETTINGS_OPTION1": "Opção 1",
   "SETTINGS_OPTION2": "Opção 2",
   "SETTINGS_OPTION3": "Opção 3",
-  "SETTINGS_OPTION4": "Opção 4",
+  "SETTINGS_OPTION3": "Opção 4",
 
   "SETTINGS_PROFILE_BUTTON": "Editar Perfil",
 
