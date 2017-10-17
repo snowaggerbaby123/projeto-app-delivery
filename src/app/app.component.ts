@@ -11,7 +11,7 @@ import { Settings } from '../providers/providers';
   template: `<ion-menu [content]="content">
     <ion-header>
       <ion-toolbar>
-        <ion-title>Pages</ion-title>
+        <ion-title>Paginas</ion-title>
       </ion-toolbar>
     </ion-header>
 
@@ -32,17 +32,17 @@ export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
   pages: any[] = [
-    { title: 'Tutorial', component: 'TutorialPage' },
-    { title: 'Welcome', component: 'WelcomePage' },
-    { title: 'Tabs', component: 'TabsPage' },
-    { title: 'Cards', component: 'CardsPage' },
-    { title: 'Content', component: 'ContentPage' },
+    { title: 'Inicial', component: 'TutorialPage' },
+    // { title: 'Welcome', component: 'WelcomePage' },
+    // { title: 'Tabs', component: 'TabsPage' },
+    // { title: 'Cards', component: 'CardsPage' },
+    { title: 'Cadastro de Endereço', component: 'ContentPage' },
     { title: 'Login', component: 'LoginPage' },
-    { title: 'Signup', component: 'SignupPage' },
-    { title: 'Master Detail', component: 'ListMasterPage' },
-    { title: 'Menu', component: 'MenuPage' },
-    { title: 'Settings', component: 'SettingsPage' },
-    { title: 'Search', component: 'SearchPage' }
+    { title: 'Cadastro', component: 'SignupPage' },
+    // { title: 'Master Detail', component: 'ListMasterPage' },
+    // { title: 'Settings', component: 'SettingsPage' },
+    // { title: 'Search', component: 'SearchPage' }
+    // {title: 'Home', component: 'HomePage'}
   ]
 
   constructor(private translate: TranslateService, platform: Platform, settings: Settings, private config: Config, private statusBar: StatusBar, private splashScreen: SplashScreen) {
