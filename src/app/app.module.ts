@@ -9,11 +9,17 @@ import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 
+import { Pizzas } from '../mocks/providers/pizzas';
+import { Bebidas } from '../mocks/providers/bebidas';
+import { Sanduiches } from '../mocks/providers/sanduiches';
 import { Items } from '../mocks/providers/items';
 import { Settings } from '../providers/providers';
 import { User } from '../providers/providers';
 import { Api } from '../providers/providers';
 import { MyApp } from './app.component';
+
+import { PedidoPage } from '../pages/pedido/pedido';
+import { ConcluirPedidoPage } from '../pages/concluir-pedido/concluir-pedido';
 
 // The translate loader needs to know where to load i18n files
 // in Ionic's static asset pipeline.
@@ -38,7 +44,9 @@ export function provideSettings(storage: Storage) {
 
 @NgModule({
   declarations: [
-    MyApp
+    MyApp,
+    PedidoPage,
+    ConcluirPedidoPage
   ],
   imports: [
     BrowserModule,
@@ -55,11 +63,16 @@ export function provideSettings(storage: Storage) {
   ],
   bootstrap: [IonicApp],
   entryComponents: [
-    MyApp
+    MyApp,
+    PedidoPage,
+    ConcluirPedidoPage
   ],
   providers: [
     Api,
     Items,
+    Sanduiches,
+    Bebidas,
+    Pizzas,
     User,
     Camera,
     SplashScreen,

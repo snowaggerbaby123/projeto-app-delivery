@@ -1,0 +1,33 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Concluir Pedido</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+<ion-card>
+  <ion-card-header>
+    Detalhes do Pedido
+  </ion-card-header>
+
+  <ion-list detail-none>
+  <button ion-item >
+  	<ion-icon name="pizza" item-start></ion-icon>
+  	{{pizza.name || '' }}
+  </button>
+  <button ion-item>
+  	<ion-icon name="restaurant" item-start></ion-icon>
+  	{{sanduiche.name || ''}}
+  </button>
+  <button ion-item>
+  	<ion-icon name="beer" item-start></ion-icon>
+  	{{bebida.name || ''}}
+  </button>
+  </ion-list>
+</ion-card>
+
+</ion-content>

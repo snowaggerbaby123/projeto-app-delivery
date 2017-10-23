@@ -1,0 +1,44 @@
+<ion-header>
+  <ion-navbar>
+
+    <ion-title>Pedido</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+
+
+<h2>Vamos começar! Selecione.</h2>
+
+<ion-list>
+
+<ion-item>
+  <ion-label>Pizza</ion-label>
+  <ion-select [(ngModel)]="pedido.pizza" placeholder="Selecione">
+    <ion-option *ngFor="let pizza of pizzas.query()" value="{{pizza.id}}">{{pizza.name}}</ion-option>
+  </ion-select>
+</ion-item>
+
+
+<ion-item>
+  <ion-label>Sanduiches</ion-label>
+  <ion-select [(ngModel)]="pedido.sanduiche" placeholder="Selecione">
+    <ion-option *ngFor="let sand of sanduiche.query()" value="{{sand.id}}">{{sand.name}}</ion-option>
+  </ion-select>
+</ion-item>
+
+
+<ion-item>
+  <ion-label>Bebida</ion-label>
+  <ion-select [(ngModel)]="pedido.bebida" placeholder="Selecione">
+    <ion-option *ngFor="let bebida of bebidas.query()" value="{{bebida.id}}">{{bebida.name}}</ion-option>
+  </ion-select>
+</ion-item>
+
+<button ion-button block color="Primary" (click)="gotoConcluirPedido()">Faça agora seu pedido!</button>
+
+</ion-list>
+
+</ion-content>
+ 
