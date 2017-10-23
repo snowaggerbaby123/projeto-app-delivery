@@ -20,11 +20,10 @@ export class ConcluirPedidoPage {
   	private bebidas: Bebidas,
   	private pizzas: Pizzas,
   	private sanduiches: Sanduiches) {
-  	this.pedidoConcluido = navParams.data.pedido;
   	
-  	let bebida = this.bebidas.query({id: this.pedidoConcluido.bebida})[0];
-  	let sanduiche = this.sanduiches.query({id: this.pedidoConcluido.sanduiche})[0];
-  	let pizza = this.pizzas.query({id: this.pedidoConcluido.pizza})[0];
+  	let bebida = this.bebidas.query({id: navParams.data.pedido.bebida})[0];
+  	let sanduiche = this.sanduiches.query({id: navParams.data.pedido.sanduiche})[0];
+  	let pizza = this.pizzas.query({id: navParams.data.pedido.pizza})[0];
 
   	if  (bebida) {
   		this.bebida = bebida;
